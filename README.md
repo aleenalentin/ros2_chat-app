@@ -1,7 +1,7 @@
 # ros2_chat-app
 
-ROS 2 chat application 
-In this chatapp we created a node with 2 instance. Each instance have a publisher and subscriber and we use parameters to change the topic name using commandline. 
+#ROS 2 chat application 
+In this chatapp, we created a node with 2 instance. Each instance have a publisher and subscriber and we use parameters to change the topic name using commandline. 
 
 # Prerequisites
 
