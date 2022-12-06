@@ -27,7 +27,8 @@ cd ~/ros2_ws$ colcon build --packages-select cpp_pubsub
 . install/setup.bash
 
 ```
-#To run the code
+# To run the code
+
 Now open 2 new terminal 
 
 Terminal 1:
