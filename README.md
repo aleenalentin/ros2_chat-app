@@ -1,6 +1,4 @@
-# ros2_chat-app
-
-#ROS 2 chat application 
+# ROS 2 chat application 
 In this chatapp, we created a node with 2 instance. Each instance have a publisher and subscriber and we use parameters to change the topic name using commandline. 
 
 # Prerequisites
@@ -14,21 +12,19 @@ Open a terminal  source ROS 2 environment.
 Create a ros2_ws directory, inside it create a src folder.
 
 ```bash
-mkdir ros2_ws
-cd  ros2_ws
-mkdir src
-cd src
+mkdir -p ~/ros2_ws/src
+cd  ros2_ws/src
 
 ```
-After installing, clone to a ROS2 workspace inside src folder, do colcon build & source setup files.
+ Clone to a ROS2 workspace inside src folder, do colcon build & source setup files.
 
 ```bash
 
-cd ~/catkin_ws/src
+cd ~/ros2_ws/src
 
 https://github.com/aleenalentin/ros2_chat-app.git
 
-cd ~/catkin_ws
+cd ~/ros2_ws
 
 colcon build --packages-select cpp_pubsub
 
