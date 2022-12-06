@@ -20,7 +20,7 @@ git clone https://github.com/aleenalentin/ros2_chat-app
 
 cd ~/ros2_ws
 
-colcon build --packages-select cpp_pubsub
+colcon build --packages-select chat_app
 
 . install/setup.bash
 ```
