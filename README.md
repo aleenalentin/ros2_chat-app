@@ -32,14 +32,14 @@ Open 2 new terminals. Execute following commands in the corresponding terminal
 Terminal 1:
 ```
 . install/setup.bash
-ros2 run cpp_pubsub listener --ros-args --remap __node:=chat_node_1 -p send_topic:=chat1 -p  recv_topic:=chat2
+ros2 run chat_app chat_app --ros-args --remap __node:=chat_node_1 -p send_topic:=chat1 -p  recv_topic:=chat2
 
 ```
 Terminal 2:
 
 ```bash
 . install/setup.bash
-ros2 run cpp_pubsub listener --ros-args --remap __node:=chat_node_2 -p send_topic:=chat2 -p  recv_topic:=chat1
+ros2 run chat_app chat_app --ros-args --remap __node:=chat_node_2 -p send_topic:=chat2 -p  recv_topic:=chat1
 ```
 
 # Demo 
