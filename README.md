@@ -44,9 +44,10 @@ cd ~/ros2_ws
 ros2 run chat_app chat_app --ros-args --remap __node:=chat_node_2 -p send_topic:=chat2 -p  recv_topic:=chat1
 ```
 
-# Demo 
+# Demo screenshot
 
-Click on the following image to see the demo video
+![Terminal screenshot](terminal_output.png)
+
 
 
 
